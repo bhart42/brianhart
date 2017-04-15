@@ -1,0 +1,126 @@
+/*
+Brian Hart
+4/14/17
+CSE 154 AC
+TA: Yen Lee
+Creative Assignment 3 
+This file contains the styling for my personal website.
+*/
+
+header {
+    border:3px solid gray;
+    border-radius: 10px;
+    padding: .5em;
+    margin: 10px;
+}
+
+
+#map {
+    display: flex;
+    flex-direction: row;
+    
+}
+
+.links {
+    margin: 10px;
+    
+}
+a:link {
+    text-align: left;
+    font-family: tahoma, sans-serif;
+    font-size: 12pt;
+    color: #428bca;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+a:visited {
+    color: gray;
+}
+
+a:hover {
+    color: #d3d3d3;
+}
+
+h1 {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #428bca;
+    text-indent: 10px;
+}
+
+p {
+    font-family: tahoma, sans-serif;
+    color: gray;
+    font-size: 14pt;
+    text-indent: 10px;
+}
+
+.workplaces {
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #428bca;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: .5em;
+    margin: 10px;
+}
+
+.projects {
+    display: flex;
+    flex-direction: column;
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: #428bca;
+    border: 3px solid gray;
+    border-radius: 10px;
+    padding: .5em;
+    margin: 10px;
+}
+
+.projects p {
+    font-family: tahoma, sans-serif;
+    color: gray;
+    font-size: 14pt;
+    text-indent: 0;
+}
+
+#description {
+    height: 0px;
+    overflow: hidden;
+    transition: all .5s linear;
+}
+
+.jobtitle {
+    font-family: "Helvetica Neue", Helvetica, sans-serif;
+    color: gray;
+}
+
+.jobdescription {
+    font-family: tahoma, sans-serif;
+    color: #8b8d8e;
+}
+
+.datelocation {
+    font-family: tahoma, sans-serif;
+    align-self: flex-end;
+    order: -1;
+    text-align: right;
+    margin-right: 5px;
+}
+
+#disclaimer {
+    font-family: tahoma, sans-serif;
+    color: #428bca;
+    font-style: italic;
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 10px;
+}
+
+footer p {
+    font-family: tahoma, sans-serif;
+    color: #428bca;
+    font-size: 14pt;
+    text-indent: 10px;
+}
+
