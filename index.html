@@ -1,9 +1,9 @@
 <!--
 Brian Hart
-4/8/17
+4/25/17
 CSE 154 AC
 TA: Yen Lee
-Creative Assignment 2 
+Creative Assignment 4 
 This file contains the content for the index of my personal website.
 -->
 
@@ -12,33 +12,48 @@ This file contains the content for the index of my personal website.
 <html>
 <head>
     <title>Brian Hart</title>
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="sticky-footer.css" type="text/css" rel="stylesheet" />
     <link href="index.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-    <h1>Brian Hart</h1>
+    <div class="container">
+        <div class="jumbotron">
+            <h1>Brian Hart</h1>
+    
+            <div id="pic">
+                <img src="assets/profpic.jpg" class="img-circle" alt="profile pic" width="300" height="300"> 
+            </div>
      
-    <p>
-        Financial Analyst. <br />
-        Entrepreneur. <br />
-        Programmer. <br />
-    </p>
-     
-    <hr />
-    <h2> <a href= "education.html">Education</a></h2>
-    <hr />
-    <h2> <a href= "experience.html">Experience</a></h2>
-    <hr />
-    <h2> <a href= "projects.html">Projects</a></h2>
-    <footer>
-        <p>
-        <a href="https://webster.cs.washington.edu/validate-html.php"> 
-            <img src="http://webster.cs.washington.edu/w3c-html.png" 
-            alt="Valid HTML5" /> </a>
-            <a href="https://webster.cs.washington.edu/validate-css.php"> 
-            <img src="http://webster.cs.washington.edu/w3c-css.png" 
-            alt="Valid CSS" /> </a>
-        </a>
-        </p> 
-    </footer>
+            <p>
+                Financial Analyst. <br />
+                Entrepreneur. <br />
+                Programmer. <br />
+            </p>
+        </div>
+    </div>
+    
+    <div class="container">
+        <div class="col-sm-6 col-centered">
+            <h2> <a href= "education.html">Education</a></h2>    
+        </div>
+        <div class="col-sm-6 col-centered">
+            <h2> <a href= "experience.html">Experience</a></h2>    
+        </div>
+        <div class="col-sm-6 col-centered">
+            <h2> <a href= "projects.html">Projects</a></h2>
+        </div>
+    </div>
+    
+    
+    
+    <div class="footer">
+        <div>
+            <p class="text-muted">
+                Brian Hart 2017 All Rights Reserved
+                <a href="https://webster.cs.washington.edu/validate-html.php"><img src="http://webster.cs.washington.edu/w3c-html.png"alt="Valid HTML5" /> </a>
+                <a href="https://webster.cs.washington.edu/validate-css.php"><img src="http://webster.cs.washington.edu/w3c-css.png"alt="Valid CSS" /> </a>
+            </p>
+    </div>
 </body>
 </html>

@@ -1,69 +1,57 @@
 /*
 Brian Hart
-4/8/17
+4/25/17
 CSE 154 AC
 TA: Yen Lee
-Creative Assignment 2 
+Creative Assignment 4 
 This file contains the styling for the index of my personal website (index.html)
 */
 
-h1 {
+.jumbotron h1 {
     vertical-align: middle;
     text-align: center;
     font-family: "Helvetica Neue", Helvetica, sans-serif;
-    font-size: 24pt;
+    font-size: 36pt;
     color: #428bca;
 }
 
-h2 {
-    vertical-align: middle;
-    text-align: center;
-    font-family: tahoma, sans-serif;
-    font-size: 12pt;
-    color: gray;
+.container {
+    display: flex;
 }
 
-h3 {
-    vertical-align: middle;
-    text-align: center;
-    font-family: Helvetica;
-    font-size: 10pt;
-    color: gray;
+.jumbotron {
+    justify-content: center;
+    flex-basis: 100%;
+}
+
+#pic img {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
 }
 
 p {
-    vertical-align: middle;
     text-align: center;
-    font-family: tahoma, sans-serif;
-    font-size: 14pt;
-    color: gray;
+    font-style: italic;
+    font-size: 24px;
 }
 
-ul {
-    font-family: Helvetica, sans-serif;
-    font-size: 12pt;
+.footer p {
+    text-align: left;
+    font-size: 14px;
+    margin-left: 10px;
 }
 
-li {
-    font-family: tahoma, sans-serif;
-    font-size: 10pt;
+.col-sm-6 {
+    justify-content: center;
 }
 
-ol {
-    font-family: tahoma, sans-serif;
-    font-size: 10pt;
-}    
+h2 {
+    text-align: center;
+}
 
-a:link {
+a {
     color: #428bca;
-    font-weight: bold;
-    text-decoration: none;
-}
-
-a:visited {
-    color: gray;
-}
-
-a:hover {
-    color: #d3d3d3;
 }

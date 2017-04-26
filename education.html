@@ -1,8 +1,8 @@
 <!--
 Brian Hart
-4/6/17
+4/25/17
 CSE 154
-Creative Assignment 2 
+Creative Assignment 4 
 This file contains the content for the education page of my personal website.
 -->
 
@@ -11,33 +11,34 @@ This file contains the content for the education page of my personal website.
 <html>
 <head>
     <title>Brian Hart: Education</title>
-    <link href="creative.css" type="text/css" rel="stylesheet" />
+    <link href="bootstrap.min.css" type="text/css" rel="stylesheet" />
+    <link href="sticky-footer.css" type="text/css" rel="stylesheet" />
+    <link href="custom.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
-    <header>
-        <div id="map">
-            <div class="links">
-                <span><a href= "index.html">Home</a></span>
+    <nav class="navbar navbar-default">
+        <div class="container-fluid">
+            <div class="navbar-header">
+                <a class="navbar-brand" href="index.html">Brian Hart</a>
             </div>
-            <div class="links">
-                <span><a href= "experience.html">Experience</a></span>
-            </div>
-            <div class="links">
-                <span><a href= "projects.html">Projects</a></span>
-            </div>
+            <ul class="nav navbar-nav">
+                <li class="active"><a href="education.html">Education</a></li>
+                <li><a href="experience.html">Experience</a></li>
+                <li><a href="projects.html">Projects</a></li>
+            </ul>
         </div>
-    </header>
+    </nav>
     <h1>Education</h1>
     <p>
      
     </p>
-    <footer>
-        <p>
-        <a href="http://validator.w3.org/check/referer">
-        <img src="http://webster.cs.washington.edu/w3c-html.png"
-        alt="Validate" />
-        </a>
-    </p> 
-    </footer>
+    <div class="footer">
+        <div>
+            <p class="text-muted">
+                Brian Hart 2017 All Rights Reserved
+                <a href="https://webster.cs.washington.edu/validate-html.php"><img src="http://webster.cs.washington.edu/w3c-html.png"alt="Valid HTML5" /> </a>
+                <a href="https://webster.cs.washington.edu/validate-css.php"><img src="http://webster.cs.washington.edu/w3c-css.png"alt="Valid CSS" /> </a>
+            </p>
+    </div>
 </body>
 </html>
