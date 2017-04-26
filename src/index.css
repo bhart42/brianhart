@@ -22,6 +22,8 @@ This file contains the styling for the index of my personal website (index.html)
 .jumbotron {
     justify-content: center;
     flex-basis: 100%;
+    padding-top: 0px;
+    margin-bottom: 0px;
 }
 
 #pic img {
