@@ -1,0 +1,25 @@
+h1 {
+    margin-bottom: 25px;
+}
+
+.container {
+    padding: 0px;
+    margin-top: 0px;
+    margin-bottom: 50px;
+}
+
+.row-lg-12 {
+    background-color: #428bca;
+    color: white; 
+    display: flex;
+}
+
+.col-md-6 {
+    text-align: right;
+    margin-left: auto;
+    font-size: 16px;
+}
+
+.container li {
+    font-size: 16px;
+}
